@@ -1,0 +1,11 @@
+Package: SamplingUtil
+Title: Utilitarios de muestreo.
+Version: 0.1
+Authors: <felipe_jimenez_l@yahoo.com>
+Description: Este paquete contiene la data de la ENAHO Costa Rica, para
+    manejarla convenientemente en R.
+Depends:
+    R (>= 3.1.1)
+License: INEC
+LazyData: true
+URL: https://github.com/DFJL/SamplingUtil
