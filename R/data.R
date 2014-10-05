@@ -10,7 +10,6 @@ setwd(dir)
 # Cargando la data de la ENAHO 2013
 ENAHO2013<- read.spss("ENAHO 2013 EXPERTOS.sav",to.data.frame = TRUE)
 
-
 #' Cargar data de la ENAHO 2013
 #' 
 #' Carga en un dataframe la data de la ENAHO 2013
