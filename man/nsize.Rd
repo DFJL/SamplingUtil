@@ -3,7 +3,7 @@
 \alias{nsize}
 \title{Calculo de tamaños muestrales}
 \usage{
-nsize(df, x, r, alpha = 0.05)
+nsize(x, r, alpha = 0.05)
 }
 \arguments{
 \item{df:}{Data frame con datos para calcular media y variancia.}
