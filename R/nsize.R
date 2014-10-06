@@ -14,7 +14,7 @@ nsize<-function(df,x,r,alpha=0.05){
   #Calculo de componentes de la formula
   z<-qnorm(1-(alpha/2))
   s<- sd(df$x)
-  errorabs<-errorrel*mean(df$x)
+  errorabs<-r*mean(df$x)
   #Calculo de tamaño de muestra
   n0<- round((z*s/errorabs)^2,0)
   n<-round((n0/(1+(n0/length(df$x)))))
