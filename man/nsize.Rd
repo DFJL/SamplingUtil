@@ -3,14 +3,14 @@
 \alias{nsize}
 \title{Calculo de tamaños muestrales}
 \usage{
-nsize(x, r, alpha = 0.05)
+nsize(x, r = 0, abs = 0, alpha = 0.05)
 }
 \arguments{
-\item{df:}{Data frame con datos para calcular media y variancia.}
-
 \item{x:}{Columna base para calcular tamaño de muestra.}
 
 \item{r:}{Error relativo.}
+
+\item{abs:}{Error absoluto.}
 
 \item{alpha:}{Riesgo alpha de que el error real supere r.}
 }
@@ -18,9 +18,9 @@ nsize(x, r, alpha = 0.05)
 lista con n0 y n ajustado.
 }
 \description{
-Basado en slides del curso Topicos de Muestreo.Universidad de Costa Rica.
-}
-\details{
 Funcion para generar una muestra con control de error absoluto o relativo.
+}
+\references{
+Basado en slides del curso Topicos de Muestreo.Universidad de Costa Rica.
 }
 

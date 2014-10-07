@@ -14,6 +14,3 @@ sys.sample <- function(N,n){
   sys.samp <- seq(r, r + k*(n-1), k)
   return(sys.samp)
 }
-
-
-data
