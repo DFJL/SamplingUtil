@@ -14,7 +14,7 @@ nsize<-function(x,r=0,abs=0,alpha=0.05){
   z<-qnorm(1-(alpha/2))
   s<- sd(x)
   if(abs>0 && r>0){
-    stop("Se evalúa solamente el error relativo o absoluto")}
+    stop("Se evalua solamente el error relativo o absoluto")}
     else{
       if(r>0 && abs==0 && max(x)>1){
         #Calculo de componentes de la formula relativa

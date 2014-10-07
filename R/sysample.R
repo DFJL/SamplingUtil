@@ -5,9 +5,10 @@
 #' Función para generar una muestra con algoritmo sistematico de n elementos de un total de N.
 #' @param N: Total de elementos de la Poblacion.
 #' @param n: Elementos a seleccionar en la muestra.
+#' @description Genera una muestra sistemática.
 #' @return objeto con los elementos seleccionados.
 #' @export
-#' @description Funcion tomada de http://fisher.utstat.utoronto.ca/~mahinda/stac50/Rcode_sysSampling.txt
+#' @references Funcion tomada de http://fisher.utstat.utoronto.ca/~mahinda/stac50/Rcode_sysSampling.txt
 sys.sample <- function(N,n){
   k <- floor(N/n) 
   r <- sample(1:k, 1)
