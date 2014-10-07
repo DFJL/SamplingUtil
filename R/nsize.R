@@ -22,7 +22,7 @@ nsize<-function(x,r=0,abs=0,alpha=0.05){
         n0<- round((z*s/errorabs)^2,0)
       }
       else{
-        if(r==0 && abs>0 && min(x)>=0 && max(x)<=1){
+        if(r==0 && abs>0 && max(x)>1){
           #Calculo de componentes de la formula absoluta
           n0<- round((z*s/abs)^2,0)
         }
