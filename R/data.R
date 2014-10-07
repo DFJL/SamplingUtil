@@ -1,5 +1,5 @@
 
-#' ENAHO 2013.
+#' Data de la ENAHO 2013.
 #'
 #' Data de la Encuesta Nacional de Hogares 2013
 #'

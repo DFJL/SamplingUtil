@@ -2,7 +2,7 @@
 \docType{data}
 \name{ENAHO2013}
 \alias{ENAHO2013}
-\title{ENAHO 2013.}
+\title{Data de la ENAHO 2013.}
 \format{Dataframe con la data ENAHO 2013.}
 \usage{
 ENAHO2013
