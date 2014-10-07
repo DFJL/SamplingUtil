@@ -14,8 +14,3 @@ enaho2<- sample(1:nrow(ENAHO2013),1000)
 enaho2<- ENAHO2013[enaho2,]
 
 save(ENAHO2013, file = "data/ENAHO2013.rdata")
-
-
-
-
-
