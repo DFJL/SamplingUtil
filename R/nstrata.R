@@ -10,13 +10,13 @@
 #' @return Objeto con muestra distribuida por estrato.
 #' @export
 #' @references Basado en slides del curso Topicos de Muestreo.Universidad de Costa Rica.
-nstrata<- function(n,wh,sh=0,ch=0,method=c("proportional","optimal","neyman")){
+nstrata<- function(n,wh,sh=NULL,ch=NULL,method="proportional"){
   nh<-rep(0,length(wh))
   method <- match.arg(method, c("proportional", "optimal", "neyman"))
   if (method=="proportional"){
     nh<-ceiling(n*wh)}
   else{
-    if(method=="optimal" && ch!=0){
+    if(method=="optimal" && ch!=NULL){
       nh<-ceiling(n*((wh*sh)/sqrt(ch))/(sum(((wh*sh)/sqrt(ch)))))
     }
   }
