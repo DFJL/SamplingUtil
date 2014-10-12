@@ -14,7 +14,7 @@ nstrata(n, wh, sh = NULL, ch = NULL, method = "proportional")
 
 \item{ch:}{Costo por entrevista .}
 
-\item{method:}{Método de asignación de la muestra a los estratos.}
+\item{method:}{Método de asignación de la muestra a los estratos("proportional", "optimal", "neyman")}
 }
 \value{
 Objeto con muestra distribuida por estrato.
