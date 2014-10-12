@@ -3,7 +3,8 @@
 \alias{nstrata}
 \title{Calculo de tamaños muestrales en estratos}
 \usage{
-nstrata(n, wh, sh = 0, ch = 0, method = c("proportional", "optimal"))
+nstrata(n, wh, sh = 0, ch = 0, method = c("proportional", "optimal",
+  "neyman"))
 }
 \arguments{
 \item{n:}{Tamaño de la muestra total.}
