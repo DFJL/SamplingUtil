@@ -4,7 +4,7 @@ library(foreign)
 
 #Seteando directorio donde se encuentran los datos(Se deben incluir al directorio raiz del proyecto)
 
-dir<- c("C:/Datos/SamplingUtil/data-raw")
+dir<- c("C:/Datos/SamplingUtil")
 setwd(dir)
 
 # Cargando la data de la ENAHO 2013
