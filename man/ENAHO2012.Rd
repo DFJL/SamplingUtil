@@ -2,16 +2,16 @@
 \docType{data}
 \name{ENAHO2012}
 \alias{ENAHO2012}
-\title{Data de la ENAHO 2012.}
-\format{Dataframe con la data ENAHO 2012.}
+\title{ENAHO 2012 data.}
+\format{Dataframe with ENAHO 2013 data.}
 \usage{
 ENAHO2012
 }
 \description{
-Para el detalle y diccionario de datos ir a la direccion:http://www.inec.go.cr/anda4/index.php/catalog/130/accesspolicy
+For the details and data dictionaries go to:http://www.inec.go.cr/anda4/index.php/catalog/130/accesspolicy
 }
 \details{
-Data de la Encuesta Nacional de Hogares 2012
+National Survey of homes,Costa Rica 2012
 }
 \keyword{datasets}
 

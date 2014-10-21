@@ -2,7 +2,8 @@ Package: SamplingUtil
 Title: Sampling utilities.
 Version: 0.2
 Authors: <felipe_jimenez_l@yahoo.com>
-Description: This packages contains a few functions to select and calculate simple an estratified samples.
+Description: This packages contains a few functions to select and calculate
+    simple an estratified samples.
 Depends:
     R (>= 3.1.1)
 License: INEC
