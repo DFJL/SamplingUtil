@@ -1,15 +1,15 @@
 
-#'Calculo de tamaños muestrales en estratos
+#'Sample size calculation for strata
 #'
-#' Funcion para distribuir la muestra en los estratos.
-#' @param n: Tamaño de la muestra total.
-#' @param wh: Objeto on las proporciones por estrato.
-#' @param sh: Desviación de cada estrato.
-#' @param ch: Costo por entrevista .
-#' @param method: Método de asignación de la muestra a los estratos("proportional", "optimal", "neyman")
-#' @return Objeto con muestra distribuida por estrato.
+#' Assign sample size to strata.Supports three methods(proportional,optimal and Neyman)
+#' @param n: Total sample size.
+#' @param wh: Data object with the proportions for each strata.
+#' @param sh:  Data object with the standard deviations for each strata.
+#' @param ch:  Data object with the cost for each strata.
+#' @param method: Method of sample allocation to strata("proportional", "optimal", "neyman")
+#' @return Data object with the sample size for each strata.
 #' @export
-#' @references Basado en slides del curso Topicos de Muestreo.Universidad de Costa Rica.
+#' @references Based in the slides of Sampling Topics course.University of Costa Rica.
 nstrata<-function(n,wh,sh=NULL,ch=NULL,method="proportional"){
   nh<-rep(0,length(wh))
   method <- match.arg(method, c("proportional", "optimal", "neyman"))
