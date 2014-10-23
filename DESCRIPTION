@@ -1,8 +1,8 @@
 Package: SamplingUtil
 Title: Sampling utilities.
-Version: 0.1.8
+Version: 0.1.9
 Author: 'Felipe Jimenez' [aut, cre]
-Maintainer: 'Felipe Jiménez' <felipe_jimenez_l@yahoo.com>
+Maintainer: 'Felipe Jimenez' <felipe_jimenez_l@yahoo.com>
 Description: This packages contains a few functions to select and calculate
     simple an estratified samples.
 Depends:
