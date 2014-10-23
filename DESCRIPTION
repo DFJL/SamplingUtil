@@ -1,6 +1,6 @@
 Package: SamplingUtil
 Title: Sampling utilities.
-Version: 0.2
+Version: 0.1.5
 Author: 'Felipe Jiménez' [aut, cre]
 Maintainer: 'Felipe Jiménez' <felipe_jimenez_l@yahoo.com>
 Description: This packages contains a few functions to select and calculate

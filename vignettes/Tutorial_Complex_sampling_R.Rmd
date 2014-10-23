@@ -96,7 +96,7 @@ Para el ejemplo del muestreo sistemático utilizaremos la función `sys.sample` 
 **Instalar devtools:**`install.packages("devtools")`   
 **Cargar libreria:** `library(devtools)`     
 
-**Instalar SamplingUtils:**`install_github("DFJL/SamplingUtils")`  
+**Instalar SamplingUtils:**`install_github("DFJL/SamplingUtil")`  
 
 De esta manera podemos proceder a generar la muestra sistemática:
 
